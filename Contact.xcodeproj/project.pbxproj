@@ -16,6 +16,12 @@
 		36D792C41AA47D970017D6F1 /* ContactTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36D792C31AA47D970017D6F1 /* ContactTests.swift */; };
 		36D792CE1AA47F980017D6F1 /* Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36D792CD1AA47F980017D6F1 /* Contact.swift */; };
 		36D792D21AA491E40017D6F1 /* ContactTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36D792D11AA491E40017D6F1 /* ContactTableViewController.swift */; };
+		36EB21911AA4BD6E00B705BB /* 29icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 36EB218C1AA4BD6E00B705BB /* 29icon.png */; };
+		36EB21921AA4BD6E00B705BB /* 40icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 36EB218D1AA4BD6E00B705BB /* 40icon.png */; };
+		36EB21931AA4BD6E00B705BB /* 58icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 36EB218E1AA4BD6E00B705BB /* 58icon.png */; };
+		36EB21941AA4BD6E00B705BB /* 80icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 36EB218F1AA4BD6E00B705BB /* 80icon.png */; };
+		36EB21951AA4BD6E00B705BB /* 152icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 36EB21901AA4BD6E00B705BB /* 152icon.png */; };
+		36EB21971AA4BDCC00B705BB /* 76icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 36EB21961AA4BDCC00B705BB /* 76icon.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +48,12 @@
 		36D792C31AA47D970017D6F1 /* ContactTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactTests.swift; sourceTree = "<group>"; };
 		36D792CD1AA47F980017D6F1 /* Contact.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Contact.swift; sourceTree = "<group>"; };
 		36D792D11AA491E40017D6F1 /* ContactTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactTableViewController.swift; sourceTree = SOURCE_ROOT; };
+		36EB218C1AA4BD6E00B705BB /* 29icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 29icon.png; sourceTree = "<group>"; };
+		36EB218D1AA4BD6E00B705BB /* 40icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 40icon.png; sourceTree = "<group>"; };
+		36EB218E1AA4BD6E00B705BB /* 58icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 58icon.png; sourceTree = "<group>"; };
+		36EB218F1AA4BD6E00B705BB /* 80icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 80icon.png; sourceTree = "<group>"; };
+		36EB21901AA4BD6E00B705BB /* 152icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 152icon.png; sourceTree = "<group>"; };
+		36EB21961AA4BDCC00B705BB /* 76icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 76icon.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +77,7 @@
 		36D7929C1AA47D960017D6F1 = {
 			isa = PBXGroup;
 			children = (
+				36EB218B1AA4BD6300B705BB /* icons */,
 				36D792A71AA47D960017D6F1 /* Contact */,
 				36D792C01AA47D970017D6F1 /* ContactTests */,
 				36D792A61AA47D960017D6F1 /* Products */,
@@ -119,6 +132,19 @@
 				36D792C21AA47D970017D6F1 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		36EB218B1AA4BD6300B705BB /* icons */ = {
+			isa = PBXGroup;
+			children = (
+				36EB21961AA4BDCC00B705BB /* 76icon.png */,
+				36EB218C1AA4BD6E00B705BB /* 29icon.png */,
+				36EB218D1AA4BD6E00B705BB /* 40icon.png */,
+				36EB218E1AA4BD6E00B705BB /* 58icon.png */,
+				36EB218F1AA4BD6E00B705BB /* 80icon.png */,
+				36EB21901AA4BD6E00B705BB /* 152icon.png */,
+			);
+			name = icons;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -202,8 +228,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				36D792B31AA47D960017D6F1 /* Main.storyboard in Resources */,
+				36EB21941AA4BD6E00B705BB /* 80icon.png in Resources */,
+				36EB21931AA4BD6E00B705BB /* 58icon.png in Resources */,
+				36EB21911AA4BD6E00B705BB /* 29icon.png in Resources */,
 				36D792B81AA47D960017D6F1 /* LaunchScreen.xib in Resources */,
+				36EB21921AA4BD6E00B705BB /* 40icon.png in Resources */,
 				36D792B51AA47D960017D6F1 /* Images.xcassets in Resources */,
+				36EB21951AA4BD6E00B705BB /* 152icon.png in Resources */,
+				36EB21971AA4BDCC00B705BB /* 76icon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -350,6 +382,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = Contact/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -360,6 +393,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = Contact/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
